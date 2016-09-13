@@ -104,5 +104,38 @@ textarea{
 	.foot{
 		font-size: 18px;
 	}
-
+}
+@media (min-width: 200px) and (max-width: 534px){
+	.container{
+		width: 90%;
+	}
+	.col-7, .col-5{
+		width: 100%;
+	}
+	.logo img{
+		width: 90%;
+	}
+	.text h1{
+		margin-top:10px;
+		font-size: 40px;
+	}
+	.menu a{
+		font-size: 15px;
+	}
+	.text p{
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+	form{
+		margin: 20px 0;
+	}
+	#boton{
+		padding: 10px;
+	}
+	.foot{
+		font-size: 15px;
+	}
+	.menu li{
+	margin-left: 10px;
+	}
 }
